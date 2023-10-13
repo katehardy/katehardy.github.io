@@ -1,6 +1,3 @@
-/* this is a comment */
-
-
 
 #kate-photo {
     width: 150px;
@@ -48,7 +45,7 @@ h2{
 /* style list of skills. */
 #skills-list{
     list-style: decimal-leading-zero;
-    list-style: decimal-leading-zero; /* High tech */
+    list-style: decimal-leading-zero;
     color: #fff;
     text-shadow:
       0 0 7px rgb(87, 5, 202),
