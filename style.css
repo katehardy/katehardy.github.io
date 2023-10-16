@@ -1,0 +1,68 @@
+.title{
+    text-align: center;
+}
+.rectangle-1 {
+    width: 1364px;
+    height: 110px;
+    padding: 8px 8px 8px 8px;
+    background: #a8c6fa;
+}
+
+a:link, a:visited {
+	width: 151px;
+	height: 65px;
+	color: #444444;
+	font-family: "Source Sans Pro";
+	font-weight: 400;
+	font-size: 18px;
+	text-align: center;
+    padding: 14px 25px;
+  }
+  
+  a:hover, a:active {
+    color: #f4a700
+
+  }
+
+.link-bar-1 {
+	width: 151px;
+	height: 65px;
+	color: #444444;
+	font-family: "Source Sans Pro";
+	font-weight: 400;
+	font-size: 18px;
+	text-align: center;
+}
+
+.body {
+    font-family: "Source Sans Pro", "sans serif";
+    font-size: 18px;
+}
+
+#longroad {
+    width: 487px;
+    height: 607px;
+    background: #000000;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.circle {
+    height: 100px;
+    width: 100px;
+    background-color: #ffe3ae;
+    border-radius: 50%;
+    position: relative;
+    z-index: -1;
+  }
+
+  .fa-solid fa-child-reaching {
+    position: relative;
+    z-index: 1;
+}
+
+.rectangle-2 {
+	width: 1364px;
+	height: 145px;
+	padding: 8px 8px 8px 8px;
+	background: #a8c6fa;
+}
