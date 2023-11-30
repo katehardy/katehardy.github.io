@@ -1,11 +1,11 @@
-.title{
-    text-align: center;
-}
+
 .rectangle-1 {
-    width: 1364px;
+    width: 100%;
     height: 110px;
-    padding: 8px 8px 8px 8px;
     background: #a8c6fa;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
 }
 
 a:link, a:visited {
@@ -16,35 +16,38 @@ a:link, a:visited {
 	font-weight: 400;
 	font-size: 18px;
 	text-align: center;
-    padding: 14px 25px;
+  padding: 14px 25px;
   }
   
   a:hover, a:active {
     color: #f4a700
-
   }
 
-.link-bar-1 {
-	width: 151px;
-	height: 65px;
-	color: #444444;
-	font-family: "Source Sans Pro";
-	font-weight: 400;
-	font-size: 18px;
-	text-align: center;
-}
 
-.body {
-    font-family: "Source Sans Pro", "sans serif";
-    font-size: 18px;
-}
 
 #longroad {
-    width: 487px;
-    height: 607px;
-    background: #000000;
-    border-radius: 5px 5px 5px 5px;
+  width: 487px;
+  height: 607px;
+  background: #000000;
+  border-radius: 5px 5px 5px 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+
+body {
+  font-family: "Source Sans Pro", "sans serif";
+  font-size: 18px;
+  text-align: center;
+  color: #444444;
+  background: #F7F6F6
+}
+
+.bold {
+  font-weight: bold;
+}
+
 
 .circle {
     height: 100px;
@@ -61,8 +64,65 @@ a:link, a:visited {
 }
 
 .rectangle-2 {
-	width: 1364px;
+	width: 100%;
 	height: 145px;
 	padding: 8px 8px 8px 8px;
 	background: #a8c6fa;
+}
+
+.line {
+  width: 100%;
+  height: 0px;
+  opacity: 30%;
+  border-color: #7A7A7A;
+  border-width: 1px;
+  border-style: solid;
+}
+
+
+#profilephoto {
+  width: 315px;
+  height: 331px;
+  background: #00000000;
+  border-radius: 30px 30px 30px 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#AboutKate {
+  width: 756px;
+  height: 50px;
+  color: #000000;
+  font-family: "Source Sans Pro";
+  font-weight: 300;
+  font-size: 44px;
+  line-height: 1.0;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#Connect {
+width: 350px;
+height: 10px;
+color: #000000;
+font-family: "Source Sans Pro";
+font-weight: 300;
+font-size: 20px;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+font-weight: bold;
+}
+
+#profilephoto:hover {
+  transform: scaleX(-1);
+}
+
+#linked-in{
+  width: 30px;
+  height: 30px;
+  vertical-align: bottom;
 }
